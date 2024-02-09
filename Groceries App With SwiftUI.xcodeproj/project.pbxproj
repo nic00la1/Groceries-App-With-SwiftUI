@@ -14,6 +14,7 @@
 		B31F33C12B76DF6C003EA2C0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F33BE2B76DF6C003EA2C0 /* Color+Extension.swift */; };
 		B31F33C22B76DF6C003EA2C0 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F33BF2B76DF6C003EA2C0 /* Images.swift */; };
 		B31F33C42B76DF9D003EA2C0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F33C32B76DF9D003EA2C0 /* WelcomeView.swift */; };
+		B3FEACA72B76E5400072001A /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEACA62B76E5400072001A /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B31F33BE2B76DF6C003EA2C0 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		B31F33BF2B76DF6C003EA2C0 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		B31F33C32B76DF9D003EA2C0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B3FEACA62B76E5400072001A /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				B31F33C32B76DF9D003EA2C0 /* WelcomeView.swift */,
+				B3FEACA62B76E5400072001A /* CategoriesView.swift */,
 				B31F33BC2B76DF6C003EA2C0 /* Helpers */,
 				B31F33AE2B76DF1A003EA2C0 /* Groceries_App_With_SwiftUIApp.swift */,
 				B31F33B22B76DF1B003EA2C0 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 			files = (
 				B31F33C42B76DF9D003EA2C0 /* WelcomeView.swift in Sources */,
 				B31F33C02B76DF6C003EA2C0 /* UIView+Extension.swift in Sources */,
+				B3FEACA72B76E5400072001A /* CategoriesView.swift in Sources */,
 				B31F33C22B76DF6C003EA2C0 /* Images.swift in Sources */,
 				B31F33AF2B76DF1A003EA2C0 /* Groceries_App_With_SwiftUIApp.swift in Sources */,
 				B31F33C12B76DF6C003EA2C0 /* Color+Extension.swift in Sources */,
