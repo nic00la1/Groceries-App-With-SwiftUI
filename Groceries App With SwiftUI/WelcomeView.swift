@@ -14,8 +14,23 @@ struct WelcomeView: View {
                 .resizable()
                 .scaledToFill()
                 .edgesIgnoringSafeArea(.all)
-            VStack{
+            VStack {
                 Spacer()
+                Image(uiImage: Images.Welcome.logo)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 50)
+                
+                Text("Welcome to our store")
+                    .font(.system(size: 48, weight: .semibold, design: .rounded))
+                    .multilineTextAlignment(.center)
+                    .foregroundStyle(.white)
+                    .padding(.bottom, 8)
+                
+                Text("Get Your groceries in as fast as one hour")
+                    .font(.system(size: 18, weight: .regular, design: .rounded))
+                    .foregroundStyle(.gray)
+                    .padding(.bottom, 40)
                 Button {
                     // Action
                     
