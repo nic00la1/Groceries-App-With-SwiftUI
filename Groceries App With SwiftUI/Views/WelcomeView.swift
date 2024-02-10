@@ -55,7 +55,7 @@ struct WelcomeView: View {
                 }
             }
             .navigationDestination(isPresented: $presentCategories) {
-                Text("Categories Screen")
+                CategoriesView()
             }
         }
     }
