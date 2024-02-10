@@ -17,7 +17,7 @@ struct CategoryCard: View {
                 .scaledToFit()
                 .frame(height: 75)
             Text("\(model.name)")
-                .font(.system(size: 16, weight: .semibold, design: .rounded))
+                .font(.system(size: 16, weight: .semibold, design: .rounded ))
         }
         .frame(width: 175, height: 190)
         .background(model.color)

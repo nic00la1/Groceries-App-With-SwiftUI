@@ -20,9 +20,9 @@ struct CategoriesView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVGrid(columns: columns, spacing: 20) {
+                LazyVGrid(columns: columns, spacing: 16) {
                     ForEach(viewModel.categoriesList, id: \.self.id) { item in
-                        Text("\(item.name)")
+                        CategoryCard(model: item)
                     }
                 }
                 .padding(.horizontal)
