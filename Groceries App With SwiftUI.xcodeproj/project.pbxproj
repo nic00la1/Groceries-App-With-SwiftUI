@@ -15,6 +15,7 @@
 		B31F33C22B76DF6C003EA2C0 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F33BF2B76DF6C003EA2C0 /* Images.swift */; };
 		B31F33C42B76DF9D003EA2C0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31F33C32B76DF9D003EA2C0 /* WelcomeView.swift */; };
 		B3FEACA72B76E5400072001A /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEACA62B76E5400072001A /* CategoriesView.swift */; };
+		B3FEACA92B77A6EB0072001A /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FEACA82B77A6EB0072001A /* CategoriesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B31F33BF2B76DF6C003EA2C0 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		B31F33C32B76DF9D003EA2C0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		B3FEACA62B76E5400072001A /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		B3FEACA82B77A6EB0072001A /* CategoriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		B31F33AD2B76DF1A003EA2C0 /* Groceries App With SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B3FEACA82B77A6EB0072001A /* CategoriesViewModel.swift */,
 				B31F33C32B76DF9D003EA2C0 /* WelcomeView.swift */,
 				B3FEACA62B76E5400072001A /* CategoriesView.swift */,
 				B31F33BC2B76DF6C003EA2C0 /* Helpers */,
@@ -163,6 +166,7 @@
 				B31F33C22B76DF6C003EA2C0 /* Images.swift in Sources */,
 				B31F33AF2B76DF1A003EA2C0 /* Groceries_App_With_SwiftUIApp.swift in Sources */,
 				B31F33C12B76DF6C003EA2C0 /* Color+Extension.swift in Sources */,
+				B3FEACA92B77A6EB0072001A /* CategoriesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,12 +8,24 @@
 import SwiftUI
 
 struct CategoriesView: View {
+    private let viewModel = CategoriesViewModel()
+    
     @State private var searchText = ""
+    
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
     
     var body: some View {
         NavigationStack {
             ScrollView {
-                
+                LazyVGrid(columns: columns, spacing: 20) {
+                    ForEach(viewModel.categoriesList, id: \.self.id) { item in
+                        Text("\(item.name)")
+                    }
+                }
+                .padding(.horizontal)
             }
             .navigationTitle("Find products")
             .navigationBarTitleDisplayMode(.inline)

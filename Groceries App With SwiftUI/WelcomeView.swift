@@ -33,7 +33,7 @@ struct WelcomeView: View {
                     
                     Text("Get Your groceries in as fast as one hour")
                         .font(.system(size: 18, weight: .regular, design: .rounded))
-                        .foregroundStyle(.gray)
+                        .foregroundStyle(Color.description)
                         .padding(.bottom, 40)
                     
                     Button {
@@ -48,7 +48,7 @@ struct WelcomeView: View {
                     }
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 16)
-                    .background(.green)
+                    .background(Color.groceriesGreen)
                     .cornerRadius(12)
                     .padding(.horizontal, 30)
                     .padding(.bottom, 90)
